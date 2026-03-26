@@ -1,14 +1,14 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore, collection, getDocs, query, orderBy, limit } from 'firebase/firestore';
 
-// TODO: Replace with your actual Firebase project configuration
+// Configuration from environment variables
 const firebaseConfig = {
-  apiKey: "AIzaSyAl820PQq30T6eTtN37w3ogqxqOG0mMfRU",
-  authDomain: "content-delivery-app-9271a.firebaseapp.com",
-  projectId: "content-delivery-app-9271a",
-  storageBucket: "content-delivery-app-9271a.firebasestorage.app",
-  messagingSenderId: "192100626235",
-  appId: "1:192100626235:web:4a439da06c0a481e52111e"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase

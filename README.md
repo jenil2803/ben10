@@ -25,8 +25,9 @@ The application leverages Firebase for backend-as-a-service (BaaS) functionality
 
 ### Configuration Steps
 
-1.  Configure credentials in `src/services/firebase.js`.
-2.  Populate a `tiles` collection in the Firestore Database.
+1.  Copy the example environment file: `cp .env.example .env`
+2.  Configure your Firebase credentials inside the newly created `.env` file.
+3.  Populate a `tiles` collection in the Firestore Database.
 3.  Install dependencies and start the development server:
     ```bash
     npm install
