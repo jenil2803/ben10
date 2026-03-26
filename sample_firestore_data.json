@@ -1,0 +1,47 @@
+{
+  "tiles": [
+    {
+      "id": "1",
+      "title": "Make a Catch Game with Scratch",
+      "imageUrl": "https://placehold.co/400x300/f87171/fff?text=Scratch+Catch",
+      "type": "project",
+      "author": "CodeNinja"
+    },
+    {
+      "id": "2",
+      "title": "Build a LEGO Rubber Band Car",
+      "imageUrl": "https://placehold.co/400x300/3b82f6/fff?text=Lego+Car",
+      "type": "project",
+      "author": "LegoBuilder"
+    },
+    {
+      "id": "3",
+      "title": "Draw a Rocket using Python Turtle",
+      "imageUrl": "https://placehold.co/400x300/10b981/fff?text=Python+Rocket",
+      "type": "project",
+      "author": "PythonKid"
+    },
+    {
+      "id": "4",
+      "title": "Micro:bit Flashing Heart Tutorial",
+      "imageUrl": "https://placehold.co/400x300/a855f7/fff?text=Micro:bit",
+      "type": "project",
+      "author": "TechTeacher"
+    },
+    {
+      "id": "5",
+      "title": "Minecraft Redstone Door Mechanism",
+      "imageUrl": "https://placehold.co/400x300/f59e0b/fff?text=Redstone",
+      "type": "project",
+      "author": "CraftyKid"
+    },
+    {
+      "id": "6",
+      "title": "Getting Started with Scratch Coding!",
+      "imageUrl": "https://placehold.co/400x300/ec4899/fff?text=Scratch+Video",
+      "type": "video",
+      "videoUrl": "https://www.youtube.com/watch?v=9jTPZfhuVro",
+      "author": "Scratch Team"
+    }
+  ]
+}
